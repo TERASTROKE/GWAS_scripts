@@ -1,13 +1,16 @@
 # TERASTROKE - GWAS Scripts
 
-**Developed by:** Quentin Le Grand  
-**Contact:** quentin.le-grand@u-bordeaux.fr or rainer.malik@med.uni-muenchen.de
+Scripts for preparation and execution of Genome-Wide Association Studies (GWAS) for stroke phenotypes.
 
 ## Overview
 
 These scripts are designed for preparation and execution of Genome-Wide Association Studies (GWAS) for stroke phenotypes. The scripts must be run in the predefined order due to dependencies between them.
 
 **Note:** These scripts have been tested on relatively small cohorts (n<1000) but should work for larger sample sizes (may be slower). If your cluster is powerful, you can adapt the SLURM options in `Script_1.Prep_pgen.sh` and `Script_4.Run_Regenie.sh`.
+
+## Support
+
+For questions, issues, or bug reports, please [open an issue](https://github.com/TERASTROKE/GWAS_scripts/issues) on GitHub.
 
 ## Prerequisites
 
@@ -39,7 +42,7 @@ Create a tab-delimited phenotype file with missing data coded as "NA":
 - **Column 1:** Individual ID (called "ID")
 - **Subsequent columns:** Phenotypes named `{ANCESTRY}_{TRAIT}`
   - Cases: `1`
-  - Controls: `2`
+  - Controls: `0`
   - Missing/Alternative subtype cases: `NA`
 
 **Ancestry Codes:**
@@ -80,7 +83,7 @@ Create a tab-delimited covariates file with missing data coded as "NA":
 WORK_DIR=<PATH_TO_WORKING_DIRECTORY>
 cd $WORK_DIR
 
-# Clone this repository or download scripts
+# Clone this repository
 git clone https://github.com/TERASTROKE/GWAS_scripts.git
 cd GWAS_scripts
 
@@ -224,8 +227,8 @@ And add threading to REGENIE commands:
 --threads 4
 ```
 
-## Support
+## Contributing
 
-For questions or issues, please contact: quentin.le-grand@u-bordeaux.fr or rainer.malik@med.uni-muenchen.de
+Contributions are welcome! Please feel free to submit a Pull Request or [open an issue](https://github.com/TERASTROKE/GWAS_scripts/issues) for bugs, questions, or feature requests.
 
 
