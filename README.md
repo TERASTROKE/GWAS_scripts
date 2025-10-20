@@ -39,7 +39,7 @@ Create a tab-delimited phenotype file with missing data coded as "NA":
 - **Column 1:** Individual ID (called "ID")
 - **Subsequent columns:** Phenotypes named `{ANCESTRY}_{TRAIT}`
   - Cases: `1`
-  - Controls: `2`
+  - Controls: `0`
   - Missing/Alternative subtype cases: `NA`
 
 **Ancestry Codes:**
