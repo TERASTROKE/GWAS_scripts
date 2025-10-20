@@ -1,7 +1,7 @@
 # TERASTROKE - GWAS Scripts
 
 **Developed by:** Quentin Le Grand  
-**Contact:** quentin.le-grand@u-bordeaux.fr
+**Contact:** quentin.le-grand@u-bordeaux.fr or rainer.malik@med.uni-muenchen.de
 
 ## Overview
 
