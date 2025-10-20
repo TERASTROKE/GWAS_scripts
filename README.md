@@ -226,6 +226,6 @@ And add threading to REGENIE commands:
 
 ## Support
 
-For questions or issues, please contact: quentin.le-grand@u-bordeaux.fr
+For questions or issues, please contact: quentin.le-grand@u-bordeaux.fr or rainer.malik@med.uni-muenchen.de
 
 
