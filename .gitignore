@@ -1,0 +1,19 @@
+# Ignore software binaries
+Software/plink
+Software/plink2
+Software/regenie
+
+# Ignore log files
+*.out
+*.log
+Error_file_*.txt
+Logs/
+
+# Ignore data files
+Genotypes/
+Phenotypes/
+Analyses_*/
+*.zip
+
+# Ignore temporary files
+TEMP_*
