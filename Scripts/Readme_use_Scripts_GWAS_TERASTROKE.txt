@@ -134,7 +134,7 @@ done
 #################### Preparation of genotypes - REGENIE Step 1
 ###### Prepare genotypes bfile to have ~500k (400k works) variants in Regenie step1 
 # Plink binary files for non imputed QCed genotypes or imputed with Rsq >0.95 (without .bed/.bim/.fam)
-# If too many variants are present (>1M) with the initial settings, please uncomment pruning settings (lines 47-60), 
+# If too many variants are present (>1M) with the initial settings, please uncomment pruning settings (lines 48-61), 
 # please change the pruning parameters if needed (e.g. --indep-pairwise 1000 100 0.5)
 Plink_BFILE_nonimputed=<PATH_TO_PLINK_BFILES>
 
