@@ -9,8 +9,6 @@
 ### Advertisement ###
 echo "####################################################" 
 echo "#   TERASTROKE - Script for preparation and GWAS   #" 
-echo "#   Developed by: Quentin Le Grand                 #" 
-echo "#   For questions: quentin.le-grand@u-bordeaux.fr  #" 
 echo "####################################################" 
 echo -e '\n'
 
