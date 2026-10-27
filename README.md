@@ -192,7 +192,7 @@ done
 ```bash
 cd $WORK_DIR
 
-# File with imputation scores (tab-delimited: col1=SNP in CHR:POS format hg19, col2=Rsq)
+# File with imputation scores (tab-delimited: col1=SNP in CHR:POS format GRCh38, col2=Rsq)
 INDEX_RSQ=<PATH_TO_FILE_WITH_SNP_RSQ>
 cp ${INDEX_RSQ} ${WORK_DIR}Analyses_${STUDY}
 
